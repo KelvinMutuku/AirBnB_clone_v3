@@ -1,5 +1,8 @@
 #!usr/bin/python3
-from models import storage, User
+"""users"""
+
+from models import storage
+from models.user import User
 from flask import abort, jsonify, make_response, request
 from api.v1.views import app_views
 
